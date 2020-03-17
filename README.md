@@ -1,7 +1,7 @@
 # MOPP água
 ![git-icon](https://img.icons8.com/cotton/2x/plumbing.png)![git-icon]()![git-icon]()
 
-#Indice
+# Indice
  - [Valor do consumo](#valor-do-consumo)
  - [Quantidade do consumo](#quantidade-do-consumo)
  - [Avisos programados](#avisos-programados)
@@ -39,5 +39,9 @@ Vai permitir que a conssecionária tenha acesso facilitado ao banco de dados de 
   
 ### Usuário
   Ele vai possuir uma tela de usuário que vai portar infomações da conta do titular, como nome matrícula, email e telefone para contato etc. (App)
-##
+## Equipe 
+* Pedro Lima
+* Pedro Fonseca
+* Marcelo Chaves
+* Oscar Borges
   
