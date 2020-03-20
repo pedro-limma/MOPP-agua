@@ -2,17 +2,20 @@
 ![git-icon](https://img.icons8.com/officel/80/000000/plumbing.png) ![git-icon](https://img.icons8.com/officel/80/000000/water-tower.png) ![git-icon](https://img.icons8.com/color/80/000000/relief-valve.png)
 
 # Índice:
- - [Descrição](#descrição)
- - [Valor do consumo](#valor-do-consumo)
- - [Quantidade do consumo](#quantidade-do-consumo)
- - [Avisos programados](#avisos-programados)
- - [Histórico](#histórico)
- - [Dicas](#dicas)
- - [Lista de Cadastros](#lista-de-cadastros)
- - [Segunda Via](#segunda-via)
- - [Usuário](#usuário)
+ ## [Descrição](#descrição)
+ ## [Funcionalidades:](#funcionalidades)
+  * [Valor do consumo](#valor-do-consumo)
+  * [Quantidade do consumo](#quantidade-do-consumo)
+  * [Avisos programados](#avisos-programados)
+  * [Histórico](#histórico)
+  * [Dicas](#dicas)
+  * [Lista de Cadastros](#lista-de-cadastros)
+  * [Segunda Via](#segunda-via)
+  * [Usuário](#usuário)
+ ## [Desenvolvedores](#desenvolvedores)
+ 
 
-## Descrição
+## Descrição:
   O MOPP água é uma aplicação que tem o intuito de reduzir o desperdício de água principalmente dos grandes consumidores, a partir de um produto que irá medir e receber os dados do hidrômetro do estabelecimento e tratar esses dados para facilitar a gestão e controle ao dono do estabelecimento e da conssecionária de água, que atualmente não possuem esses dados exatos em micro medição, possuindo apenas a macro, ou seja, por setores da cidade. 
 
 ## Funcionalidades:
@@ -26,7 +29,7 @@
 
 ### Avisos programados
   Ele vai dar a possibilidade de programar sua agenda de consumo de água e uma quantidade máxima de litros dando notificações quando o valor estiver sendo aproximado, gradativamente.(App)
-  
+ 
 ### Histórico 
   Existirá a possibilidade de analisar a mudança e evolução do seu gasto mensal e anual, e como sua mudança do uso da água pode ter afetado a sua conta final.(App Desktop)
   
@@ -43,8 +46,8 @@ Vai permitir que a conssecionária de água tenha acesso facilitado ao banco de 
   Ele vai possuir uma tela de usuário que vai portar infomações da conta do titular, como nome matrícula, email e telefone para contato, etc. (App)
   
 ## Desenvolvedores: 
-* Marcelo Calandrini Chaves (+55 91 99272-7732)
-* Pedro Augusto Pinto de Lima (+55 91 984655058)
-* Pedro Guilherme Nunes Fonseca (+55 91 8747-9594)
-* Oscar Simões Waldim Borges (+55 91 8823-9972)
+* Marcelo Calandrini Chaves     (+55 91 99272-7732) @MarceloCChaves
+* Pedro Augusto Pinto de Lima   (+55 91 98465-5058) @pedro-limma
+* Pedro Guilherme Nunes Fonseca (+55 91 98747-9594) @PedroGNF
+* Oscar Simões Waldim Borges    (+55 91 98823-9972) @OscarBorges
  
