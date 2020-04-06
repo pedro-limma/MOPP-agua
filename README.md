@@ -46,8 +46,8 @@ Vai permitir que a conssecionária de água tenha acesso facilitado ao banco de 
   Ele vai possuir uma tela de usuário que vai portar infomações da conta do titular, como nome matrícula, email e telefone para contato, etc. (App)
   
 ## Desenvolvedores: 
-* Marcelo Calandrini Chaves     (+55 91 99272-7732) @MarceloCChaves
-* Pedro Augusto Pinto de Lima   (+55 91 98465-5058) @pedro-limma
-* Pedro Guilherme Nunes Fonseca (+55 91 98747-9594) @PedroGNF
-* Oscar Simões Waldim Borges    (+55 91 98823-9972) @OscarBorges
+* Marcelo Calandrini Chaves      @MarceloCChaves
+* Pedro Augusto Pinto de Lima    @pedro-limma
+* Pedro Guilherme Nunes Fonseca  @PedroGNF
+* Oscar Simões Waldim Borges     @OscarBorges
  
