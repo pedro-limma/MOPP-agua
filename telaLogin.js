@@ -8,7 +8,7 @@ import { Card } from 'react-native-paper';
 
 export default class App extends React.Component {
   clicou = () => {
-    Alert.alert("Seu Login foi efetuado com secesso.");
+    Alert.alert("Seu Login foi efetuado com sucesso.");
   }
   render() {
     return (

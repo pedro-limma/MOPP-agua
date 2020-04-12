@@ -1,9 +1,10 @@
 # MOPP Água
 ![git-icon](https://img.icons8.com/officel/80/000000/plumbing.png) ![git-icon](https://img.icons8.com/officel/80/000000/water-tower.png) ![git-icon](https://img.icons8.com/color/80/000000/relief-valve.png)
 
+# Descrição:
+  O MOPP água é uma aplicação que tem o intuito de reduzir o desperdício de água principalmente dos grandes consumidores, a partir de um produto que irá medir e receber os dados do hidrômetro do estabelecimento e tratar esses dados para facilitar a gestão e controle ao dono do estabelecimento e da conssecionária de água, que atualmente não possuem esses dados exatos em micro medição, possuindo apenas a macro, ou seja, por setores da cidade. 
 # Índice:
- ## [Descrição](#descrição)
- ## [Funcionalidades:](#funcionalidades)
+  * [Descrição](#descrição)
   * [Valor do consumo](#valor-do-consumo)
   * [Quantidade do consumo](#quantidade-do-consumo)
   * [Avisos programados](#avisos-programados)
@@ -12,12 +13,8 @@
   * [Lista de Cadastros](#lista-de-cadastros)
   * [Segunda Via](#segunda-via)
   * [Usuário](#usuário)
- ## [Desenvolvedores](#desenvolvedores)
+  * [Desenvolvedores](#desenvolvedores)
  
-
-## Descrição:
-  O MOPP água é uma aplicação que tem o intuito de reduzir o desperdício de água principalmente dos grandes consumidores, a partir de um produto que irá medir e receber os dados do hidrômetro do estabelecimento e tratar esses dados para facilitar a gestão e controle ao dono do estabelecimento e da conssecionária de água, que atualmente não possuem esses dados exatos em micro medição, possuindo apenas a macro, ou seja, por setores da cidade. 
-
 ## Funcionalidades:
 
 ### Valor do consumo
@@ -46,8 +43,8 @@ Vai permitir que a conssecionária de água tenha acesso facilitado ao banco de 
   Ele vai possuir uma tela de usuário que vai portar infomações da conta do titular, como nome matrícula, email e telefone para contato, etc. (App)
   
 ## Desenvolvedores: 
-* Marcelo Calandrini Chaves     (+55 91 99272-7732) @MarceloCChaves
-* Pedro Augusto Pinto de Lima   (+55 91 98465-5058) @pedro-limma
-* Pedro Guilherme Nunes Fonseca (+55 91 98747-9594) @PedroGNF
-* Oscar Simões Waldim Borges    (+55 91 98823-9972) @OscarBorges
+* Marcelo Calandrini Chaves (Marcelochaves20000@gmail.com)   @MarceloCChaves
+* Pedro Augusto Pinto de Lima (Pedro.lima.wk@gmail.com)   @pedro-limma
+* Pedro Guilherme Nunes Fonseca (Pedrognfwork@gmail.com)  @PedroGNF
+* Oscar Simões Waldim Borges  (oscarborges15@gmail.com)   @OscarBorges
  
