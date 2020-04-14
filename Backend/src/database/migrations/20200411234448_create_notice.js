@@ -5,15 +5,10 @@ exports.up = function(knex) {
     table.string('title').notNullable();
     table.string('description').notNullable();
     table.string('phone').notNullable();
-    table.string('adress').notNullable();
     table.string('numberAdress').notNullable();
     table.string('city').notNullable();
     table.string('uf', 2 ).notNullable();
     table.string('cep').notNullable();
-    table.string('cpf').notNullable();
-    table.string('rg').notNullable();
-    table.string('establishment').notNullable();
-    table.string('dealership').notNullable();
 
     table.string('user_id').notNullable();
 
