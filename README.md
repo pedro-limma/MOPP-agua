@@ -46,5 +46,6 @@ Vai permitir que a conssecionária de água tenha acesso facilitado ao banco de 
 * Marcelo Calandrini Chaves (Marcelochaves20000@gmail.com)   @MarceloCChaves
 * Pedro Augusto Pinto de Lima (Pedro.lima.wk@gmail.com)   @pedro-limma
 * Pedro Guilherme Nunes Fonseca (Pedrognfwork@gmail.com)  @PedroGNF
-* Oscar Simões Waldim Borges  (oscarborges15@gmail.com)   @OscarBorges
+* Oscar Simões Waldim Borges  (oscarborges15@gmail.com)   @OscarBorges15
+
  
