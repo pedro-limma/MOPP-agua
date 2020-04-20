@@ -9,8 +9,8 @@ export default StyleSheet.create({
   },
 
   logo: {
-    width: 190,
-    height: 180,
+    width: 100,
+    height: 95,
     borderRadius: 100,
     marginBottom: 20,
     margintop: 50,
@@ -18,7 +18,7 @@ export default StyleSheet.create({
   },
 
   loginTitulo: {
-   fontSize: 50,
+   fontSize: 25,
    color: 'white',
    marginBottom: 30,
   
@@ -29,8 +29,8 @@ export default StyleSheet.create({
      borderRadius:5,
      alignItems: 'center',
      marginTop: 10,
-     height: 40,
-     width: 300,
+     height: 35,
+     width: 295,
      fontSize: 16,
      fontWeight: "bold",
    },
@@ -54,20 +54,5 @@ export default StyleSheet.create({
     
   },
 
-   cadastroTexto: {
-     fontSize: 16,
-     color: 'black',
-     marginBottom: 10,
-    
-  },
-
-   cadastroBotao: {
-     fontSize: 16,
-     fontWeight: 'bold',
-     color: 'lightblue',
-     marginBottom: 10,
-     textDecorationLine: 'underline',
-     fontStyle: 'italic',
-  },
-  
+ 
 });
