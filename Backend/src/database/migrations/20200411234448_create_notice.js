@@ -4,11 +4,6 @@ exports.up = function(knex) {
     table.increments();
     table.string('title').notNullable();
     table.string('description').notNullable();
-    table.string('phone').notNullable();
-    table.string('numberAdress').notNullable();
-    table.string('city').notNullable();
-    table.string('uf', 2 ).notNullable();
-    table.string('cep').notNullable();
 
     table.string('user_id').notNullable();
 
