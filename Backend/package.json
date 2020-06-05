@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "celebrate": "^12.1.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.20.13",
     "sqlite3": "^4.1.1"
