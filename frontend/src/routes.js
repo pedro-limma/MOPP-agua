@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Login from './pages/Login/index';
@@ -11,6 +11,7 @@ export default function Routes(){
       <Switch>
         <Route path='/' exact component={ Login }/>
         <Route path='/medicao' component={ Medicao }/>
+        <Route path='/cadastro' component={ Cadastro }/>
       </Switch>
   </BrowserRouter>
   );

@@ -1,17 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FiArrowLeft } from 'react-icons/fi';
+import {Link} from 'react-router-dom';
+import {FiArrowLeft} from 'react-icons/fi';
+
 import './styles.css';
-import Moppimg from '../../Login/Register/Mopp.jpg';
+import logo from '../../assets/logo.png'
+
 export default function Register(){
     return(
         <div className="register-container">
             <div className="content">
                 <section>
-                    <img src={Moppimg} alt='MoppAgua'/>
+                    <img src={logo} alt='MoppAgua'/>
                     <h1>Cadastro</h1>
                     <p>Faça o seu cadastro e entre para o Mopp Água</p>
-                    <Link className='.back-link' to='/'>
+
+                    <Link className='.back-Link' to='/'>
                         <FiArrowLeft size={16} color='#E02041'/>
                          Voltar para a página inicial
                     </Link>

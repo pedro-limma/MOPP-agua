@@ -3,11 +3,13 @@
   max-width: 1180px;
   padding: 0 30px;
   margin: 32px auto;
+  background-color: #015F9D;
+  border-radius: 5px;
 }
 .profile-container header{
   display: flex;
   align-items: center;
-  background-color: #4169E1;
+  background-color: #075283;
 }
 .profile-container header span{
   font-size: 20px;

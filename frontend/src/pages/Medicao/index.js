@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
-import {Line} from 'react-chartjs-2';
-import {Link} from 'react-router-dom';
-import logo from '../../assets/LOGO.png';
+import { Line } from 'react-chartjs-2';
+//import {Link} from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 import './styles.css';
 import { FiTrash2 } from 'react-icons/fi'
@@ -35,7 +35,6 @@ function Medicao() {
             chart()
         },[]) 
 
-
   return (
       <div className='profile-container'>
         <header>
@@ -43,12 +42,12 @@ function Medicao() {
             <span>Bem vindo ao MoppAgua , uma nova alternativa de gestão e consumo da sua casa</span>
         </header>
         
-        <h1>Cadastros</h1>
+        <h1>Username</h1>
 
         <ul>
             <li>
 
-                <Line  data={chartData}/>
+                <Line data={chartData}/>
 
                 <strong>Nome:</strong>
                 <p>Nome teste</p>

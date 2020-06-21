@@ -1,13 +1,11 @@
 import React from 'react';
 import './global.css';
 
-import Medicao from './pages/Medicao/index'
-import Login from './pages/Login/index'
-import Cadastro from './pages/Cadastro/index'
+import Routes from './routes'
 
 function App() {
   return (
-    <Cadastro />
+    <Routes />
   )
 }
 
