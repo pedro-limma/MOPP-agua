@@ -1,6 +1,7 @@
 body {
     background-color: #075283;
 }
+
 .login-container{
     width: 100%;
     max-width: 1120px;
@@ -40,18 +41,20 @@ body {
 .login-container h1{
     margin-bottom: 18px;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .login-container img{
-    /*height: 300px;
-    width: 500px;*/
+    height: 200px;
+    width: 500px;
     margin-right: 20px;
     max-width: 370px;
     max-height: 300px;
     border-radius: 5px;
 }
 
-.inputGroup input {
+
+input {
     height: 6vh;
     width: 60vh;
     display: flex;
@@ -61,13 +64,8 @@ body {
     padding: 3px;
 }
 
-.button {
-    width: 25vh;
-    height: 5vh;
-
-}
-
 .button:hover {
     background-color: #015F9D;
+    color: #fff;
     transition-duration: 0.2s;
 }

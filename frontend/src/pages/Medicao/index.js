@@ -10,7 +10,9 @@ import'./styles.css';
 
 function Medicao() {
   const [chartData,setChartData] = useState({})
-    const chart = () => {
+  const username = localStorage.getItem('username'); 
+  
+  const chart = () => {
         setChartData({
             labels:['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23'],
             datasets:[{
@@ -42,7 +44,7 @@ function Medicao() {
             <span>Bem vindo ao MoppAgua , uma nova alternativa de gestão e consumo da sua casa</span>
         </header>
         
-        <h1>Username</h1>
+        <h1>Usuário: {username}</h1>
 
         <ul>
             <li>

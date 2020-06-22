@@ -27,6 +27,8 @@
 .profile-container h1{
   margin-top: 80px;
   margin-bottom: 24px;
+  background-color: #075283;
+  color: white;
 }
 .profile-container ul{
   display: grid;
@@ -39,6 +41,8 @@
   padding: 24px;
   border-radius: 8px;
   position: relative;
+  width: 1120px;
+  height: 1050px;
 }
 .profile-container ul li button{
   position: absolute;
