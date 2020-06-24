@@ -42,7 +42,6 @@ export default function Register(){
             console.log(err);
             alert('Erro no cadastro tente novamente!');
         }
-
     }
 
 
