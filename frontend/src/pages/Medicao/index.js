@@ -1,7 +1,8 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState,useEffect, useMemo} from 'react';
 import { Line } from 'react-chartjs-2';
 //import {Link} from 'react-router-dom';
 import logo from '../../assets/logo.png';
+import socketioClient from 'socket.io-client';
 
 import './styles.css';
 import { FiTrash2 } from 'react-icons/fi'
@@ -9,7 +10,8 @@ import { FiTrash2 } from 'react-icons/fi'
 import'./styles.css';
 
 function Medicao() {
-  const [chartData,setChartData] = useState({})
+  const [chartData,setChartData] = useState({});
+  const [data, setData] = useState([]);
   const username = localStorage.getItem('username'); 
   
   const chart = () => {
@@ -17,7 +19,7 @@ function Medicao() {
       labels:['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23'],
       datasets:[{
           label:'Volume de água/Hora',
-          data:[0,0,0,0,0,0,0,0,0,20,15,2,3,6,8,7,9,5,6,3,1,2,5,8],
+          data:[],
           borderWidth: 2,
           borderColor:['#4169e1']
       }],
@@ -32,9 +34,19 @@ function Medicao() {
       }
     });
   }
+
   useEffect(()=> {
-      chart()
-  },[]) 
+      chart();
+  },[]);
+
+  const socket = useMemo(() => socketioClient('http://localhost:3333'), []);
+
+  useEffect(()=> {
+    socket.on('mostrarDados', dados => {
+      setData([...data, dados]);
+    });
+  }, []);
+
 
   return (
       <div className='profile-container'>
