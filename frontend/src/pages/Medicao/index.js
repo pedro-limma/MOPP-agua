@@ -9,20 +9,31 @@ import { FiTrash2 } from 'react-icons/fi'
 
 import'./styles.css';
 
+
+import api from '../../services/api';
+
 function Medicao() {
   const [chartData,setChartData] = useState({});
-  const [data, setData] = useState([]);
+  const [valores, setValores] = useState([]);
   const username = localStorage.getItem('username'); 
+
+  let medias = [];
+  let ids = [];
+
+  valores.map(media => medias.push(media.media));//entendi 
+  valores.map(id => ids.push(id.id));
   
   const chart = () => {
     setChartData({
-      labels:['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23'],
-      datasets:[{
+      labels: ids,
+      datasets:[
+        {
           label:'Volume de água/Hora',
-          data:[],
+          data:  medias,
           borderWidth: 2,
           borderColor:['#4169e1']
-      }],
+      }
+    ],
       options: {
         scales: {
           yAxes:[{
@@ -35,18 +46,24 @@ function Medicao() {
     });
   }
 
+
   useEffect(()=> {
       chart();
   },[]);
 
+  
+
   const socket = useMemo(() => socketioClient('http://localhost:3333'), []);
+//sim
+  useEffect(async ()=> {
+      await api.get('medicao').then( resp =>{
+        setValores(resp.data);
+      });
+  },[]);
 
-  useEffect(()=> {
-    socket.on('mostrarDados', dados => {
-      setData([...data, dados]);
-    });
-  }, []);
+  function atualizarDados(){
 
+  }
 
   return (
       <div className='profile-container'>
@@ -56,40 +73,20 @@ function Medicao() {
         </header>
         
         <h1>Usuário: {username}</h1>
+        
+          
+        <Line data={chartData}/>
+        <div className='dados'>
+          <button className='button' type='button' onClick={() => atualizarDados()}>
+            Atualizar
+          </button>
 
-        <ul>
-            <li>
-                <div className="graphic-container">
-                  <Line data={chartData}/>
-                </div>
-
-                <strong>Nome:</strong>
-                <p>Nome teste</p>
-
-                <strong>Matrícula:</strong>
-                <p>Matrícula teste</p>
-
-                <strong>CPF:</strong>
-                <p>CPF teste</p>
-
-                <strong>Endereço:</strong>
-                <p>Endereço teste</p>
-
-                <strong>RG:</strong>
-                <p>RG teste</p>
-
-                <strong>Estado:</strong>
-                <strong>Estado Teste</strong>
-
-            
-
-                <button type='button'>
-                    <FiTrash2 size={20} color='#a8a8b3' />
-                </button>
-            </li>
-        </ul>
+          <p>Valor teste</p>
+        </div>
     </div>
   )
 }
 
 export default Medicao;
+
+ 

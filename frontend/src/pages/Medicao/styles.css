@@ -3,7 +3,7 @@
   max-width: 1180px;
   padding: 0 30px;
   margin: 32px auto;
-  background-color: #015F9D;
+  background-color: #fff;
   border-radius: 5px;
 }
 .profile-container header{
@@ -30,7 +30,7 @@
   background-color: #075283;
   color: white;
 }
-.profile-container ul{
+.profile-container .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 24px;
@@ -67,6 +67,29 @@
   font-size: 16px;
 }
 
-.graphic-container {
-  
+.grafico{
+  width: 50vh;
+  height: 50vh;
 }
+
+.dados {
+  display: flex;
+  justify-content: space-between;
+  width: 85vh;
+  position: relative;
+}
+
+.dados p {
+  font-size: 50px;
+  margin-left: 50px;
+  color: #7c7c7c;
+}
+
+.button{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
